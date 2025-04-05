@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Mobile-first form styles */
+#idiv2 {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#idiv2 input[type="text"],
+#idiv2 input[type="number"],
+#idiv2 input[type="phone"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid lightseagreen;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+#idiv2 button {
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(134, 180, 197);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#idiv2 button:hover {
+  background-color: dodgerblue;
+}
+#idiv2 h2 {
+  color: beige;
+  border: 1px solid white;
+  font-weight: bolder;
+}
+
+/* Optional: larger screen tweaks */
+@media (min-width: 768px) {
+  #idiv2 {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #idiv2 {
+    width: 40%;
+  }
+}
+/* For Large Mobile */
+@media (min-width: 412px) {
+  #idiv2 {
+    width: 70%;
+  }
+}

@@ -1,0 +1,150 @@
+#idiv3 {
+  /* border:2px solid rgb(29, 49, 49); */
+  position: absolute;
+  top: 21%;
+
+  width: 98%;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 80px;
+  background-color: #f7f7f7;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #555;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  position: absolute;
+  left: 10%;
+  color: #555;
+  font-size: 28px;
+}
+
+#nav1 {
+  background-color: black;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+#nav1 h2 {
+  color: bisque;
+  position: absolute;
+  right: 10%;
+}
+nav {
+  background-color: lightblue;
+  height: 60px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 100%;
+  left: 0%;
+}
+
+.welcome-container {
+  animation: marquee 15s linear infinite;
+  white-space: nowrap;
+}
+
+.welcome-text {
+  color: darkblue;
+  font-size: 25pt;
+  position: absolute;
+  top: 0px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.login-button {
+  border-radius: 10px;
+  background-color: aqua;
+  color: white;
+  font-size: medium;
+}
+.login-button:hover {
+  background-image: linear-gradient(45deg, blue, red, brown);
+  box-shadow: -1px 1px 1px antiquewhite;
+  font-size: large;
+}
+#login-logout {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+#eDetails {
+  text-align: center;
+}
+#eDetails > button {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+#eDetails > button:hover {
+  border-bottom: 2px solid rgb(10, 177, 27);
+  box-shadow: 0 1px 1px rgb(20, 221, 40);
+  color: rgb(20, 221, 40);
+}
+#eDetails > button:active {
+  background-image: linear-gradient(
+    45deg,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    red
+  );
+}
+/* About Us Button */
+#b1 {
+  background-color: black;
+  color: bisque;
+  position: absolute;
+  left: 7%;
+  top: 13%;
+}
+@media (min-width: 375px) {
+  #b1 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 13%;
+  }
+}
+@media (min-width: 1280px) {
+  #b1 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 7%;
+  }
+}

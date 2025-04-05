@@ -1,0 +1,77 @@
+{
+  "myData": [
+    {
+      "id": 1685818847414,
+      "name": "SAMBIT KUMAR SAHOO",
+      "email": "samkumar70773@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 1685940962964,
+      "name": "Anil Kumar Sahoo",
+      "email": "anil@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 1701740344954,
+      "name": "Sam",
+      "email": "sam@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 1743680864930,
+      "name": "SAMBIT KUMAR SAHOO",
+      "email": "sambitsahoo759@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 1743681984669,
+      "name": "Sambit Kumar",
+      "email": "sam1@gmail.com",
+      "password": "123"
+    }
+  ],
+  "donorData": [
+    {
+      "id": 1723303218386,
+      "donorName": "Sambit Kumar sahoo",
+      "donorAge": "22",
+      "bloodGroup": "O-",
+      "contact": "7077321712"
+    },
+    {
+      "id": 1723303350677,
+      "donorName": "Anil Kumar Sahoo",
+      "donorAge": "32",
+      "bloodGroup": "O+",
+      "contact": "7077321713"
+    },
+    {
+      "id": 1733466447060,
+      "donorName": "Amit Sahoo",
+      "donorAge": "23",
+      "bloodGroup": "O+",
+      "contact": "6372811431"
+    },
+    {
+      "id": 1743685732424,
+      "donorName": "Rohan Kanhei",
+      "donorAge": "23",
+      "bloodGroup": "AB-",
+      "contact": "7077321719"
+    },
+    {
+      "id": 1743875110151,
+      "donorName": "Bikash Behera",
+      "donorAge": "27",
+      "bloodGroup": "A+",
+      "contact": "7077321712"
+    }
+  ],
+  "admin": [
+    {
+      "name": "Admin@19",
+      "pass": "@Admin02"
+    }
+  ]
+}

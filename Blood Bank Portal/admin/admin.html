@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <div class="admin-center">
+      <h1>Admin Login</h1>
+      <form onsubmit="return adminLogin(event)">
+        <div class="inputbox">
+          <span>Username</span>
+          <input
+            type="text"
+            id="admin-user"
+            placeholder="Enter Admin Username"
+          />
+        </div>
+        <div class="inputbox">
+          <span>Password</span>
+          <input
+            type="password"
+            id="admin-pass"
+            placeholder="Enter Admin Password"
+          />
+        </div>
+        <div class="inputbox">
+          <input type="submit" value="Login" />
+        </div>
+      </form>
+    </div>
+    <script src="admin.js"></script>
+  </body>
+</html>
